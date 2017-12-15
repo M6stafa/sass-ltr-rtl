@@ -1,0 +1,48 @@
+{
+  "name": "sass-ltr-rtl",
+  "description": "Compile sass files for ltr version and run RTLCSS on it to get rtl version",
+  "version": "1.0.0",
+  "private": false,
+  "keywords": [
+    "sass",
+    "rtl",
+    "ltr"
+  ],
+  "author": "Mostafa Najafi <mostafa.najafi1996@gmail.com>",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m6stafa/sass-ltr-rtl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m6stafa/sass-ltr-rtl/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "lodash": "^4.17.4",
+    "postcss-discard-comments": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp-print": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    ".rtlcssrc.json",
+    "main.js",
+    "README.md"
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA;EAEI,6BAJ6B;CAMhC","file":"main.rtl.css","sourcesContent":["$test-var: 10px #{\"/*rtl:14px*/\"};\n\nbody {\n  font: {\n    size: $test-var\n  }\n}\n"]}

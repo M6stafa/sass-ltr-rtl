@@ -1,0 +1,7 @@
+$test-var: 10px #{"/*rtl:14px*/"};
+
+body {
+  font: {
+    size: $test-var
+  }
+}
